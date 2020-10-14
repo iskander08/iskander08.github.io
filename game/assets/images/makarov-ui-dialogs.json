@@ -1,0 +1,52 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+  green: { a: 1, b: 0, g: 1, r: 0 },
+  white: { a: 1, b: 1, g: 1, r: 1 },
+  red: { a: 1, b: 0, g: 0, r: 1 },
+  gray: { a: 1, b: 0.74, g: 0.74, r: 0.74 },
+  black: { a: 1, b: 0, g: 0, r: 0 },
+  brown: {a: 1, b: 0.68, g: 0.68, r: 0.68},
+  yellow: {a: 1, b: 0.216, g: 0.773, r: 0.973}
+},
+
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+  default-font: { file: troika.fnt }
+},
+
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+  default: { font: default-font, fontColor: white },
+  brown_label: { font: default-font, fontColor: brown },
+  yellow_label: { font: default-font, fontColor: yellow },
+  red_label: { font: default-font, fontColor: red }
+},
+
+  com.badlogic.gdx.scenes.scene2d.ui.Image: {
+  dialog: {drawable: dialog },
+},
+
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    play_button: { up: play_up, down: play_down },
+    replay_button: { up: replay_up, down: replay_down },
+    basket_button: { up: basket_up, down: basket_down },
+    home_button: { up: home_up, down: home_down },
+    next_level_button: { up: next_level_up, down: next_level_down },
+    close_button: { up: close_up, down: close_down },
+    bullets_button: { up: bullets_inactive, down: bullets_active, checked: bullets_active },
+    time_button: { up: time_inactive, down: time_active, checked: time_active },
+    get_money_button: { up: diamond_inactive, down: diamond_active, checked: diamond_active },
+    aim_button: { up: aim_inactive, down: aim_active, checked: aim_active },
+    ads_button: { up: add_inactive, down: add_active, checked: add_active }
+},
+
+  com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+    get_bullets: { down: bullets_active, up: bullets_active, font: default-font, fontColor: red },
+    get_time: { down: time_active, up: time_active, font: default-font, fontColor: red }
+    get_aim: { down: aim_active, up: aim_active, font: default-font, fontColor: red },
+    price_field: { down: short_field, up: short_field, imageUp: diamond, imageDown: diamond, font: default-font, fontColor: green },
+    price_money_field: { down: short_field, up: short_field, font: default-font, fontColor: green },
+    long_field: { down: long_field, up: long_field, font: default-font, fontColor: white },
+    long_field_red: { down: long_field, up: long_field, font: default-font, fontColor: red },
+    get_diamond: { down: long_field, up: long_field, imageUp: diamond, imageDown: diamond, font: default-font, fontColor: white },
+  },
+
+}
