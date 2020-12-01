@@ -1,0 +1,433 @@
+
+makarov-ui.pack.png
+size: 2048,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+add_active
+  rotate: false
+  xy: 1268, 73
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+add_inactive
+  rotate: false
+  xy: 1320, 73
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+aim_active
+  rotate: false
+  xy: 1372, 73
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+aim_inactive
+  rotate: false
+  xy: 1424, 73
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 2, 28
+  size: 800, 480
+  orig: 800, 480
+  offset: 0, 0
+  index: -1
+basket_down
+  rotate: false
+  xy: 1476, 73
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+basket_up
+  rotate: false
+  xy: 1528, 73
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+bullets_active
+  rotate: false
+  xy: 1572, 129
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+bullets_inactive
+  rotate: false
+  xy: 1580, 73
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+close_down
+  rotate: false
+  xy: 1116, 39
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+close_up
+  rotate: false
+  xy: 1701, 304
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+curr_nav_point
+  rotate: false
+  xy: 93, 6
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+dialog
+  rotate: false
+  xy: 804, 120
+  size: 400, 388
+  orig: 400, 388
+  offset: 0, 0
+  index: -1
+diamond
+  rotate: false
+  xy: 1608, 205
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+diamond_active
+  rotate: false
+  xy: 804, 12
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+diamond_inactive
+  rotate: false
+  xy: 856, 12
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+eight
+  rotate: false
+  xy: 1864, 316
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+empty_unit
+  rotate: false
+  xy: 2027, 480
+  size: 10, 28
+  orig: 10, 28
+  offset: 0, 0
+  index: -1
+five
+  rotate: false
+  xy: 1640, 209
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+four
+  rotate: false
+  xy: 1116, 17
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+full_unit
+  rotate: false
+  xy: 2027, 450
+  size: 10, 28
+  orig: 10, 28
+  offset: 0, 0
+  index: -1
+home_down
+  rotate: false
+  xy: 908, 12
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+home_up
+  rotate: false
+  xy: 960, 12
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+left_arrow
+  rotate: false
+  xy: 1608, 231
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+left_arrow_down
+  rotate: false
+  xy: 1701, 333
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+left_control_down
+  rotate: false
+  xy: 1206, 129
+  size: 181, 54
+  orig: 181, 54
+  offset: 0, 0
+  index: -1
+left_control_up
+  rotate: false
+  xy: 1608, 454
+  size: 181, 54
+  orig: 181, 54
+  offset: 0, 0
+  index: -1
+lev_but
+  rotate: false
+  xy: 1884, 394
+  size: 57, 62
+  orig: 57, 62
+  offset: 0, 0
+  index: -1
+lev_but_down
+  rotate: false
+  xy: 1943, 394
+  size: 57, 62
+  orig: 57, 62
+  offset: 0, 0
+  index: -1
+lock
+  rotate: false
+  xy: 1012, 12
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+long_field
+  rotate: false
+  xy: 804, 68
+  size: 201, 50
+  orig: 201, 50
+  offset: 0, 0
+  index: -1
+money_active
+  rotate: false
+  xy: 1064, 12
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+money_down
+  rotate: false
+  xy: 1667, 240
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+money_inactive
+  rotate: false
+  xy: 1760, 342
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+money_up
+  rotate: false
+  xy: 1812, 352
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+nav_point
+  rotate: false
+  xy: 112, 6
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+nine
+  rotate: false
+  xy: 1728, 311
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+null
+  rotate: false
+  xy: 27, 6
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+one
+  rotate: false
+  xy: 2002, 410
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+one_stars
+  rotate: false
+  xy: 1608, 193
+  size: 30, 10
+  orig: 30, 10
+  offset: 0, 0
+  index: -1
+play_down
+  rotate: false
+  xy: 1791, 408
+  size: 91, 100
+  orig: 91, 100
+  offset: 0, 0
+  index: -1
+play_up
+  rotate: false
+  xy: 1608, 296
+  size: 91, 100
+  orig: 91, 100
+  offset: 0, 0
+  index: -1
+privacy_btn
+  rotate: false
+  xy: 1007, 68
+  size: 141, 50
+  orig: 141, 50
+  offset: 0, 0
+  index: -1
+right_arrow
+  rotate: false
+  xy: 1150, 55
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+right_arrow_down
+  rotate: false
+  xy: 1209, 64
+  size: 57, 63
+  orig: 57, 63
+  offset: 0, 0
+  index: -1
+right_control_down
+  rotate: false
+  xy: 1389, 129
+  size: 181, 54
+  orig: 181, 54
+  offset: 0, 0
+  index: -1
+right_control_up
+  rotate: false
+  xy: 1608, 398
+  size: 181, 54
+  orig: 181, 54
+  offset: 0, 0
+  index: -1
+sel_level
+  rotate: false
+  xy: 1206, 185
+  size: 400, 323
+  orig: 400, 323
+  offset: 0, 0
+  index: -1
+settings_down
+  rotate: false
+  xy: 1864, 338
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+settings_up
+  rotate: false
+  xy: 1916, 338
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+seven
+  rotate: false
+  xy: 1886, 316
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+short_field
+  rotate: false
+  xy: 1884, 458
+  size: 141, 50
+  orig: 141, 50
+  offset: 0, 0
+  index: -1
+six
+  rotate: false
+  xy: 49, 6
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+star_gold
+  rotate: false
+  xy: 2, 2
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+star_gray
+  rotate: false
+  xy: 2002, 432
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+three
+  rotate: false
+  xy: 1908, 316
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+three_stars
+  rotate: false
+  xy: 1864, 304
+  size: 30, 10
+  orig: 30, 10
+  offset: 0, 0
+  index: -1
+time_active
+  rotate: false
+  xy: 1968, 338
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+time_inactive
+  rotate: false
+  xy: 1812, 296
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+two
+  rotate: false
+  xy: 71, 6
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+two_stars
+  rotate: false
+  xy: 1930, 326
+  size: 30, 10
+  orig: 30, 10
+  offset: 0, 0
+  index: -1
