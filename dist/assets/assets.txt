@@ -14,9 +14,11 @@ t:images/makarov-loading.pack.atlas:images/makarov-loading.pack-53bda2be604e5bfa
 t:images/makarov-ui.json:images/makarov-ui-6d006c75d8fdfb852b5e32361264306d.json:3423:application/unknown:1
 i:images/makarov-ui.pack.png:images/makarov-ui.pack-d1465f7418bdf2a3fb020b8e43338ed4.png:1261843:image/png:1
 i:images/makarov-loading.pack.png:images/makarov-loading.pack-08e787b39b8ed751b2438b65b1d091cc.png:15996:image/png:1
+i:images/bottle2_0.png:images/bottle2_0-275d3116ac20efd2eeb5c4512d32b38d.png:9182:image/png:1
 i:images/makarov.pack.png:images/makarov.pack-52511dc18d52bc68207514b7286e13ff.png:2492980:image/png:1
 t:images/makarov-ui.pack.atlas:images/makarov-ui.pack-590e96dc6d8e287946c260e941fd2d61.atlas:6151:application/unknown:1
 t:images/makarov-loading.json:images/makarov-loading-171c5cb99ac665096f470bbcdbccfd8b.json:918:application/unknown:1
+i:images/bottle1_0.png:images/bottle1_0-3b616830dee91569cdd1b978c90f26aa.png:6636:image/png:1
 t:images/makarov-ui-dialogs.json:images/makarov-ui-dialogs-4a4469d603536ad673ec11aa1004dd88.json:2509:application/unknown:1
 d:sounds:sounds:0:application/unknown:1
 a:sounds/gun_shot.ogg:sounds/gun_shot-890749b514b03e71a5297531ae6062de.ogg:20378:application/unknown:1
