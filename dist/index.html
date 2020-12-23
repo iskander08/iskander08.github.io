@@ -7,7 +7,7 @@
               <link href="styles.css" rel="stylesheet" type="text/css">
               <script src="https://yandex.ru/games/sdk/v2"></script>
               <script>
-    YaGames
+			  YaGames
         .init({
             adv: {
                 onAdvClose: wasShown => {
@@ -16,9 +16,11 @@
             }
         })
         .then(ysdk => {
-            // ...
+		screen: {
+		fullscreen: false;
+		orientation: landscape;
         });
-</script>
+			  </script>
        </head>
 
        <body>
