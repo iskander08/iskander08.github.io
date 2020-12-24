@@ -5,45 +5,6 @@
               <meta http-equiv="content-type" content="text/html; charset=UTF-8">
               <meta id="gameViewport" name="viewport" content="width=device-width initial-scale=1">
               <link href="styles.css" rel="stylesheet" type="text/css">
-			  <title>Пример страницы с синхронным подключением SDK</title>
-    <script src="https://yandex.ru/games/sdk/v2"></script>
-    <script>
-        YaGames.init({
-            adv: {
-                onAdvClose: wasShown => {
-                    console.info('adv closed!');
-                }
-            }
-        })
-        .then(ysdk => {
-            ysdk.adv.showFullscreenAdv();
-
-            const buttonElem = document.querySelector('#button');
-
-            let commonCounter = 0;
-            buttonElem.addEventListener('click', () => {
-                let counter = 0;
-
-                function getCallback(callbackName) {
-                    return () => {
-                        counter += 1;
-                        commonCounter += 1;
-
-                        console.log(`showFullscreenAdv; callback ${callbackName}; ${counter} call`);
-                    }
-                }
-
-                ysdk.adv.showFullscreenAdv({
-                    callbacks: {
-                        onClose: getCallback('onClose'),
-                        onOpen: getCallback('onOpen'),
-                        onError: getCallback('onError'),
-                        onOffline: getCallback('onOffline')
-                    }
-                });
-            });
-        });
-    </script>
        </head>
 
        <body>
@@ -51,7 +12,6 @@
               <div align="center" id="embed-html"></div>
               <script type="text/javascript" src="html/html.nocache.js"></script>
        </body>
-
 
        <script>
               function handleMouseDown(evt) {
@@ -66,6 +26,5 @@
               }
               document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
               document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
-			  
        </script>
 </html>
