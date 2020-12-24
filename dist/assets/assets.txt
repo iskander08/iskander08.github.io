@@ -14,7 +14,6 @@ i:images/makarovui-dialogs.pack.png:images/makarovui-dialogs.pack-4de2fc0cef9246
 t:images/troika.fnt:images/troika-bc5c7c6901008b19dc8f25c2666fe6b7.fnt:29997:application/unknown:1
 i:images/troika.png:images/troika-d28fabb3d67958f0396cb290db910c3b.png:124621:image/png:1
 d:sounds:sounds:0:application/unknown:1
-a:sounds/background.wav:sounds/background-e92f61aa20b2ef358384802c01d25ee5.wav:6144448:audio/x-wav:1
 a:sounds/click.ogg:sounds/click-7a528dc9ae2e35237766e44d60fdb0bd.ogg:5397:application/unknown:1
 a:sounds/coin_drop.ogg:sounds/coin_drop-73b42ec2fc5353a790bf6574db33121a.ogg:16216:application/unknown:1
 a:sounds/countdown.ogg:sounds/countdown-0b712af8a9b89fdffcbb238a8ba27239.ogg:39827:application/unknown:1
