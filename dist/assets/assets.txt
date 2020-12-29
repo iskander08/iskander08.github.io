@@ -8,9 +8,9 @@ t:images/makarov-ui.pack.atlas:images/makarov-ui.pack-9b6b8472f40e0ffbf2e6456fef
 i:images/makarov-ui.pack.png:images/makarov-ui.pack-2a9728581b7948239cb7de66f95c8412.png:1192243:image/png:1
 t:images/makarov.pack.atlas:images/makarov.pack-72192a5785cb8b11003dfcceef34c478.atlas:12646:application/unknown:1
 i:images/makarov.pack.png:images/makarov.pack-67f957ae969761bafd743bbd2a100f92.png:2489915:image/png:1
-t:images/makarovui-dialogs.json:images/makarovui-dialogs-0af367e4bd75e707d98c804bd86422ad.json:3655:application/unknown:1
-t:images/makarovui-dialogs.pack.atlas:images/makarovui-dialogs.pack-7cb0000b327f144c632226d43791a6b9.atlas:2954:application/unknown:1
-i:images/makarovui-dialogs.pack.png:images/makarovui-dialogs.pack-4de2fc0cef9246a3641cf0efb6b641d4.png:87634:image/png:1
+t:images/makarovui-dialogs.json:images/makarovui-dialogs-bc7f61320752f449038164e865ad522b.json:3920:application/unknown:1
+t:images/makarovui-dialogs.pack.atlas:images/makarovui-dialogs.pack-cdc1cbc010966f03310d71a05a42f0d6.atlas:3047:application/unknown:1
+i:images/makarovui-dialogs.pack.png:images/makarovui-dialogs.pack-fec036bedd5383d3e0811420ff7f4f87.png:90005:image/png:1
 t:images/troika.fnt:images/troika-bc5c7c6901008b19dc8f25c2666fe6b7.fnt:29997:application/unknown:1
 i:images/troika.png:images/troika-d28fabb3d67958f0396cb290db910c3b.png:124621:image/png:1
 d:sounds:sounds:0:application/unknown:1
