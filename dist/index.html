@@ -7,18 +7,19 @@
               <link href="styles.css" rel="stylesheet" type="text/css">
 			  <script src="https://yandex.ru/games/sdk/v2"></script>
     <script>
-	console.log('********** version 0');
+	
         YaGames.init({
             adv: {
                 onAdvClose: wasShown => {
                     console.info('adv closed!');
                 }
+				console.log('********** version 0');
             }
         })
 		.init({
 		     screen: {
 			     fullscreen = true
-				 oriantation = 'portrait';
+				 oriantation = 'portrait'
 			 }
 		})
         .then(ysdk => {
