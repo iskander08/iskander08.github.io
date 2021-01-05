@@ -12,11 +12,14 @@
                 onAdvClose: wasShown => {
                     console.info('adv closed!');
                 }
-            },
-			adv: {
-			     portrait = false;
-			}
+            }
         })
+		.init({
+		     screen: {
+			     fullscreen = true;
+				 oriantation = 'portrait';
+			 }
+		})
         .then(ysdk => {
             ysdk.adv.showFullscreenAdv();
 
