@@ -10,18 +10,16 @@
 	
         YaGames.init({
             adv: {
+			    console.log('********** version 0');
                 onAdvClose: wasShown => {
                     console.info('adv closed!');
-					console.log('********** version 0');
                 }
-            }
-        })
-		.init({
-		     screen: {
+				screen: {
 			     fullscreen = true
 				 oriantation = 'portrait'
 			 }
-		})
+            }
+        })
         .then(ysdk => {
             ysdk.adv.showFullscreenAdv();
 
