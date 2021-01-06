@@ -24,14 +24,13 @@
             buttonElem.addEventListener('click', () => {
                 let counter = 0;
 				
-				console.info('click!');
-				
                 function getCallback(callbackName) {
                     return () => {
                         counter += 1;
                         commonCounter += 1;
 
                         console.log(`showFullscreenAdv; callback ${callbackName}; ${counter} call`);
+						console.info('click!');
                     }
                 }
 
@@ -44,8 +43,6 @@
                     }
                 });
             });
-			
-			ysdk.
         });
     </script>
        </head>
