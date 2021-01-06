@@ -23,7 +23,9 @@
             let commonCounter = 0;
             buttonElem.addEventListener('click', () => {
                 let counter = 0;
-
+				
+				console.info('click!');
+				
                 function getCallback(callbackName) {
                     return () => {
                         counter += 1;
