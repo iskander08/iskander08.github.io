@@ -12,11 +12,9 @@
             adv: {
                 onAdvClose: wasShown => {
                     console.info('adv closed!');
+					ysdk.landscape = true;
                 }
             },
-			screen: {
-				ysdk.landscape = true;
-			}
         })
         .then(ysdk => {
             ysdk.adv.showFullscreenAdv();
