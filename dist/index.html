@@ -13,7 +13,10 @@
                 onAdvClose: wasShown => {
                     console.info('adv closed!');
                 }
-            }
+            },
+			screen: {
+			    fullscreen = true;
+			}
         })
         .then(ysdk => {
             ysdk.adv.showFullscreenAdv();
