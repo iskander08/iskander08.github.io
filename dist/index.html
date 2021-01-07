@@ -19,11 +19,12 @@
             ysdk.adv.showFullscreenAdv();
 
             const buttonElem = document.querySelector('#button');
-
+			let n = 0;
+			
             let commonCounter = 0;
             buttonElem.addEventListener('click', () => {
                 let counter = 0;
-				let n = 0;
+				
                 function getCallback(callbackName) {
                     return () => {
                         counter += 1;
@@ -32,8 +33,9 @@
                         console.log(`showFullscreenAdv; callback ${callbackName}; ${counter} call`);
 						console.info('click!');
 						
-						console.log(commonCounter);
 						console.log(counter);
+						
+						console.log(n);
 						n += 1;
                     }
                 }
