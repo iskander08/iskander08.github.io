@@ -14,10 +14,11 @@
             adv: {
                 onAdvClose: wasShown => {
                     console.info('adv closed!');
-					screen.orientation = 'landscape';
                 }
             },
-			screen.orientation;
+			screen: {
+			        screen.orientation(landscape);
+			    }
         })
         .then(ysdk => {
             ysdk.adv.showFullscreenAdv();
