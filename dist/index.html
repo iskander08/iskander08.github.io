@@ -8,6 +8,12 @@
 			  <meta name="apple-mobile-web-app-capable" content="yes">
               <link href="styles.css" rel="stylesheet" type="text/css">
 			  
+			  <script>
+function ready() {
+  const { type } = screen.orientation;
+  console.log(`Fullscreen and locked to ${type}. Ready!`);
+}
+			  
 			  <script src="https://yandex.ru/games/sdk/v2"></script>
     <script>
         YaGames.init({
@@ -15,10 +21,7 @@
                 onAdvClose: wasShown => {
                     console.info('adv closed!');
                 }
-            },
-			<!-- screen: { -->
-			        <!-- screen: orientation('landscape'); -->
-			    <!-- } -->
+            }
         })
         .then(ysdk => {
             ysdk.adv.showFullscreenAdv();
