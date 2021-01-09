@@ -7,25 +7,19 @@
 			  <meta name="mobile-web-app-capable" content="yes">
 			  <meta name="apple-mobile-web-app-capable" content="yes">
               <link href="styles.css" rel="stylesheet" type="text/css">
-			  <script>
-        let ysdk;
-       
-        function initSDK() {
-            YaGames
-                .init()
-                .then(ysdk_ => {
-                    ysdk = ysdk_;
-                    <!-- ysdk.adv.showFullscreenAdv({
-                        callbacks: {
-                            onClose: wasShown => {
-                                console.info('First close')
-                            }
-                        }
-                    }); -->
-                })
-        }
+			  
+			  <script src="https://yandex.ru/games/sdk/v2"></script>
+    <script>
+        YaGames.init({
+            adv: {
+                onAdvClose: wasShown => {
+                    console.info('adv closed!');
+                }
+            }
+        })
+        .then(ysdk => {
+            ysdk.adv.showFullscreenAdv();
 
-        document.addEventListener('DOMContentLoaded', () => {
             const buttonElem = document.querySelector('#button');
 
             let commonCounter = 0;
@@ -37,54 +31,26 @@
                         counter += 1;
                         commonCounter += 1;
 
-                        if (commonCounter % 3 === 0) {
-                            throw new Error(`Test error in ${callbackName}, everything okey, it should not abort other code execution`);
-                        }
-
-                        console.info(`showFullscreenAdv; callback ${callbackName}; ${counter} call`);
+                        console.log(`showFullscreenAdv; callback ${callbackName}; ${counter} call`);
                     }
                 }
 
-                function makeSomethingImportant() {
-                    console.info('It\'s very important \'console.info\'');
-                }
-
-                if (ysdk) {
-                    ysdk.adv.showFullscreenAdv({
-                        callbacks: {
-                            onClose: makeSomethingImportant,
-                            onOpen: getCallback('onOpen'),
-                            onError: function(error) {
-                                console.error(error);
-                            },
-                            onOffline: getCallback('onOffline')
-                        }
-                    });
-                } else {
-                    makeSomethingImportant();
-                }
-
+                ysdk.adv.showFullscreenAdv({
+                    callbacks: {
+                        onClose: getCallback('onClose'),
+                        onOpen: getCallback('onOpen'),
+                        onError: getCallback('onError'),
+                        onOffline: getCallback('onOffline')
+                    }
+                });
             });
         });
     </script>
-			  
-    
        </head>
 
        <body>
               <div align="center" id="embed-html"></div>
               <script type="text/javascript" src="html/html.nocache.js"></script>
-			  <!-- Yandex Games SDK -->
-              <script>
-                     (function(d) {
-                        var t = d.getElementsByTagName('script')[0];
-                        var s = d.createElement('script');
-                        s.src = 'https://yandex.ru/games/sdk/v2';
-                        s.async = true;
-                        t.parentNode.insertBefore(s, t);
-                        s.onload = initSDK;
-                    })(document);
-              </script>
 			  <button id="button">Показать рекламу</button>
        </body>
 
