@@ -13,6 +13,13 @@ function ready() {
   const { type } = screen.orientation;
   console.log(`Fullscreen and locked to ${type}. Ready!`);
 }
+
+async function start() {
+  await document.body.requestFullscreen();
+  await screen.orientation.lock("landscape");
+  ready();
+}
+</script>
 			  
 			  <script src="https://yandex.ru/games/sdk/v2"></script>
     <script>
@@ -57,7 +64,7 @@ function ready() {
        <body>
               <div align="center" id="embed-html"></div>
               <script type="text/javascript" src="html/html.nocache.js"></script>
-			  <button id="button">Показать рекламу</button>
+			  <button onclick="start()">Start</button>
        </body>
 
        <script>
