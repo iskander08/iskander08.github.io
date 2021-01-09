@@ -11,15 +11,16 @@
 			  <script src="https://yandex.ru/games/sdk/v2"></script>
     <script>
         YaGames.init({
-            <!-- adv: { -->
-                <!-- onAdvClose: wasShown => { -->
-                    <!-- console.info('adv closed!'); -->
-                <!-- } -->
-            <!-- } -->
-			screen.orientation.lock('landscape');
+            adv: {
+                onAdvClose: wasShown => {
+                    console.info('adv closed!');
+					screen.orientation = 'landscape';
+                }
+            },
+			screen.orientation;
         })
         .then(ysdk => {
-            <!-- ysdk.adv.showFullscreenAdv(); -->
+            ysdk.adv.showFullscreenAdv();
 
             const buttonElem = document.querySelector('#button');
 
