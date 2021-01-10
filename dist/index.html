@@ -8,57 +8,6 @@
 			  <meta name="apple-mobile-web-app-capable" content="yes">
               <link href="styles.css" rel="stylesheet" type="text/css">
 			  
-			  <script>
-function ready() {
-  const { type } = screen.orientation;
-  console.log(`Fullscreen and locked to ${type}. Ready!`);
-}
-
-async function start() {
-  await document.body.requestFullscreen();
-  await screen.orientation.lock("landscape");
-  ready();
-}
-</script>
-			  
-			  <script src="https://yandex.ru/games/sdk/v2"></script>
-    <script>
-        YaGames.init({
-            adv: {
-                onAdvClose: wasShown => {
-                    console.info('adv closed!');
-                }
-            }
-        })
-        .then(ysdk => {
-            ysdk.adv.showFullscreenAdv();
-
-            const buttonElem = document.querySelector('#button');
-
-            let commonCounter = 0;
-            buttonElem.addEventListener('click', () => {
-                let counter = 0;
-
-                function getCallback(callbackName) {
-                    return () => {
-                        counter += 1;
-                        commonCounter += 1;
-
-                        console.log(`showFullscreenAdv; callback ${callbackName}; ${commonCounter} call`);
-                    }
-                }
-
-                ysdk.adv.showFullscreenAdv({
-                    callbacks: {
-                        onClose: getCallback('onClose'),
-                        onOpen: getCallback('onOpen'),
-                        onError: getCallback('onError'),
-                        onOffline: getCallback('onOffline')
-                    }
-                });
-            });
-        });
-    </script>
        </head>
 
        <body>
