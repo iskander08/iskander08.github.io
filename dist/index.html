@@ -19,14 +19,14 @@
                             value: 'landscape',
 							    }
 							},
-							<!-- adv: { -->
-                <!-- onAdvClose: wasShown => { -->
-                    <!-- console.info('adv closed!'); -->
-                <!-- } -->
-            <!-- } -->
+						adv: {
+                            onAdvClose: wasShown => {
+                            console.info('adv closed!');
+                                }
+                            }
 						})
 						.then(ysdk => {
-            <!-- ysdk.adv.showFullscreenAdv(); -->
+                           ysdk.adv.showFullscreenAdv();
         });
 			  </script>
 			  
