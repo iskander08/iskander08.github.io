@@ -19,39 +19,14 @@
                             value: 'landscape',
 							    }
 							},
-							adv: {
-                onAdvClose: wasShown => {
-                    console.info('adv closed!');
-                }
-            }
+							<!-- adv: { -->
+                <!-- onAdvClose: wasShown => { -->
+                    <!-- console.info('adv closed!'); -->
+                <!-- } -->
+            <!-- } -->
 						})
 						.then(ysdk => {
-            ysdk.adv.showFullscreenAdv();
-
-            const buttonElem = document.querySelector('#button');
-
-            let commonCounter = 0;
-            buttonElem.addEventListener('click', () => {
-                let counter = 0;
-
-                function getCallback(callbackName) {
-                    return () => {
-                        counter += 1;
-                        commonCounter += 1;
-
-                        console.log(`showFullscreenAdv; callback ${callbackName}; ${counter} call`);
-                    }
-                }
-
-                ysdk.adv.showFullscreenAdv({
-                    callbacks: {
-                        onClose: getCallback('onClose'),
-                        onOpen: getCallback('onOpen'),
-                        onError: getCallback('onError'),
-                        onOffline: getCallback('onOffline')
-                    }
-                });
-            });
+            <!-- ysdk.adv.showFullscreenAdv(); -->
         });
 			  </script>
 			  
@@ -60,26 +35,6 @@
        <body>
               <div align="center" id="embed-html"></div>
               <script type="text/javascript" src="html/html.nocache.js"></script>
-			  <!-- Yandex.RTB R-A-714643-1 -->
-<!-- <div id="yandex_rtb_R-A-714643-1"></div> -->
-<!-- <script type="text/javascript"> -->
-    <!-- (function(w, d, n, s, t) { -->
-        <!-- w[n] = w[n] || []; -->
-        <!-- w[n].push(function() { -->
-            <!-- Ya.Context.AdvManager.render({ -->
-                <!-- blockId: "R-A-714643-1", -->
-                <!-- renderTo: "yandex_rtb_R-A-714643-1", -->
-                <!-- async: true -->
-            <!-- }); -->
-        <!-- }); -->
-        <!-- t = d.getElementsByTagName("script")[0]; -->
-        <!-- s = d.createElement("script"); -->
-        <!-- s.type = "text/javascript"; -->
-        <!-- s.src = "//an.yandex.ru/system/context.js"; -->
-        <!-- s.async = true; -->
-        <!-- t.parentNode.insertBefore(s, t); -->
-    <!-- })(this, this.document, "yandexContextAsyncCallbacks"); -->
-<!-- </script> -->
 			  <button id="button">Показать рекламу</button>
        </body>
 
